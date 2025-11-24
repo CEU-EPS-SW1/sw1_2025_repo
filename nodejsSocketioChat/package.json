@@ -1,18 +1,17 @@
 {
-  "name": "express-test",
+  "name": "ejemploexpressgenerator",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "bcrypt": "^6.0.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "express-session": "^1.18.2",
+    "express": "^4.21.1",
     "http-errors": "~1.6.3",
-    "morgan": "^1.10.1"
+    "morgan": "^1.10.1",
+    "socket.io": "^4.8.1"
   }
 }
