@@ -1,0 +1,25 @@
+<%- include("header", {kahootadminjs: true}) %>
+<!-- https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html -->
+<div class="box">
+    <div class="row header">
+        <h1 id="title"></h1>
+    </div>
+    <div class="row content" id="mainContent">
+       <p id="numUsers">Usuarios conectados: </p>
+    </div>
+    <div class="row content d-none" id="answers">
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary bg-danger-subtle fs-3 w-100" id="answer0"><i class="bi bi-triangle-fill"></i></button>
+            <button type="button" class="btn btn-outline-primary bg-primary-subtle fs-3 w-100" id="answer1"><i class="bi bi-diamond-fill"></i></button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary bg-warning-subtle fs-3 w-100" id="answer2"><i class="bi bi-circle-fill"></i></button>
+            <button type="button" class="btn btn-outline-primary bg-success-subtle fs-3 w-100" id="answer3"><i class="bi bi-square-fill"></i></button>
+        </div>
+    </div>
+    <div class="row footer">
+        <button type="button" class="btn btn-outline-primary" id="adminButton">NEXT</button>
+    </div>
+</div>
+</body>
+</html>

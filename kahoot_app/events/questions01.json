@@ -1,0 +1,25 @@
+{
+    "title": "Preguntas 2025",
+    "questions":[
+        {
+            "question": "Nuestra aplicación utiliza el estándar SemVer y actualmente estamos en la versión 2.1.3. ¿Cuál debería ser la siguiente versión de la aplicación si hemos añadido funcionalidad retrocompatible?",
+            "answers": ["2.2.0", "2.1.4", "3.0.0", "Ninguna de las otras respuestas es correcta"]
+        },
+        {
+            "question": "Una petición GET es enviada al servidor...",
+            "answers": ["Con información en la URL", "Las peticiones GET no llevan información", "Con información en el cuerpo de la petición", "Ninguna de las otras respuestas es correcta"]
+        },
+        {
+            "question": "¿Qué tenemos que añadir o modificar para poder ejecutar pruebas en nuestro programa Node.js con la instrucción: npm test?",
+            "answers": ["La sección scripts del archivo package.json", "La sección run del archivo package.json", "La sección run del archivo package-lock.json", "Ninguna de las otras respuestas es correcta"]
+        },
+        {
+            "question": "¿Cuál es la especificación que define una serie de roles y atributos para hacer la web más accesible?",
+            "answers": ["ARIA", "AGWC", "AGW3C", "Ninguna de las otras respuestas es correcta"]
+        },
+        {
+            "question": "¿Cuáles de los siguientes son métodos HTTP safe?",
+            "answers": ["GET, HEAD, OPTIONS", "DELETE, GET, POST", "OPTIONS, TRACE, PATCH", "Ninguna de las otras respuestas es correcta"]
+        }
+    ]
+}

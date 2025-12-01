@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .row.content {
+  flex: 1 1 auto;
+}
+.box .row.footer {
+  flex: 0 1 80px;
+}
+h1 {
+    text-align:center;
+}
+.right {
+  margin-left: auto;
+}
+.fs-0 {
+  font-size: 5rem ;
+}
+.selectedButton {
+  border-width: 1rem;
+}
+.centerTable {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
